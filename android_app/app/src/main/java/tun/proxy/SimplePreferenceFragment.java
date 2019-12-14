@@ -8,7 +8,7 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.*;
-import android.support.v4.view.MenuCompat;
+import androidx.core.view.MenuCompat;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
