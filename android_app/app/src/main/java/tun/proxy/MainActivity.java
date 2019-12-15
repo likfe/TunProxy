@@ -209,7 +209,7 @@ public class MainActivity extends AppCompatActivity {
         if (resultCode != RESULT_OK) {
             return;
         }
-        if (resultCode == REQUEST_VPN && parseAndSaveHostPort()) {
+        if ( parseAndSaveHostPort() ) {
             start.setEnabled(false);
             stop.setEnabled(true);
             Tun2HttpVpnService.start(this);
